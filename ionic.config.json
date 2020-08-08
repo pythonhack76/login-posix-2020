@@ -1,0 +1,7 @@
+{
+  "name": "login-posix-2020",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
