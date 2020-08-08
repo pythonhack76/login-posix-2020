@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>App Dashboard</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+  <ion-grid>
+    <ion-row>
+      <ion-col text-center>
+        Benvenuto nella tua Area Personale
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col text-center>
+        La tua email registrata EmailID : {{userEmail}}
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+<ion-footer (click)="logout()">
+  <ion-toolbar color="secondary">
+    <ion-title>Fai Log out</ion-title>
+  </ion-toolbar>
+</ion-footer>
